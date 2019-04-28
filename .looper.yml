@@ -1,0 +1,2 @@
+inherit: job:///sde-ui-ux/parent-flows/gaia-looper-templates:.looper-npm-lib-template.yml
+

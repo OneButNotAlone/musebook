@@ -1,0 +1,29 @@
+{
+    "include": [
+        "./src/**/*",
+        "./node_modules/@types/**/*"
+    ],
+    "compilerOptions": {
+        "outDir": "./lib",
+        "baseUrl": "./src",
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": false,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "inlineSourceMap": true,
+        "sourceMap": false,
+        "importHelpers": true,
+        "declaration": true,
+        "jsx": "react",
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "target": "es5",
+        "lib": ["dom", "es2017"],
+        "noErrorTruncation": true
+    },
+    "exclude": ["node_modules"],
+    "files": [
+        "types.d.ts"
+    ]
+}

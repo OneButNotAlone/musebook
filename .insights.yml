@@ -1,0 +1,11 @@
+team:
+  - id: 2099
+languages:
+  - JavaScript
+  - CSS
+  - HTML
+  - Dockerfile
+dependentLibraries:
+  - artifactId: '@walmartlabs/Aether'
+    buildType: npm
+ignoreNotify: true

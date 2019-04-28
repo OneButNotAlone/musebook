@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Root layout matches snapshot 1`] = `
+@media screen and (min-width:2000px) {
+  .c0:root {
+    --max-width: 50vw;
+  }
+}
+
+@media screen  and (min-width:1200px) and (max-width:2000px) {
+  .c0:root {
+    --max-width: 70vw;
+  }
+}
+
+@media screen  and (max-width:1200px) {
+  .c0:root {
+    --max-width: 90vw;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    Root Layout wraps around everything
+  </div>
+</div>
+`;

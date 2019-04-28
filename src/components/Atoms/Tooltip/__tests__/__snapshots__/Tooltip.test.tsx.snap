@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip component Tooltip styles match snapshot 1`] = `
+.c3 {
+  margin: unset;
+  padding: unset;
+  border: unset;
+  background: unset;
+  font: unset;
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  background-color: unset;
+  color: inherit;
+}
+
+.c2 {
+  -webkit-transform: translate3d(0px,0px,0px);
+  -ms-transform: translate3d(0px,0px,0px);
+  transform: translate3d(0px,0px,0px);
+}
+
+.c2[aria-hidden="true"] {
+  pointer-events: none;
+  display: none !important;
+}
+
+.c1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  cursor: auto;
+  z-index: 999;
+}
+
+.c0 {
+  font-size: 14px;
+  font-weight: 500;
+  background-color: rgb(0,0,0);
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 12px;
+}
+
+<div
+  aria-hidden={true}
+  className="c0 c1 c2 c3"
+  data-placement="top"
+  hidden={true}
+  onTransitionEnd={[Function]}
+  role="tooltip"
+/>
+`;
+
+exports[`Tooltip component Tooltip.Arrow styles match snapshot 1`] = `
+.c1 {
+  margin: unset;
+  padding: unset;
+  border: unset;
+  background: unset;
+  font: unset;
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  background-color: unset;
+  color: inherit;
+}
+
+.c0 {
+  position: absolute;
+  font-size: 30px;
+  width: 1em;
+  height: 1em;
+  pointer-events: none;
+  background-color: transparent;
+}
+
+.c0 .stroke {
+  fill: transparent;
+}
+
+.c0 .fill {
+  fill: unset;
+}
+
+[data-placement^="top"] > .c0 {
+  top: 100%;
+  -webkit-transform: rotateZ(180deg);
+  -ms-transform: rotateZ(180deg);
+  transform: rotateZ(180deg);
+}
+
+[data-placement^="right"] > .c0 {
+  right: 100%;
+  -webkit-transform: rotateZ(-90deg);
+  -ms-transform: rotateZ(-90deg);
+  transform: rotateZ(-90deg);
+}
+
+[data-placement^="bottom"] > .c0 {
+  bottom: 100%;
+  -webkit-transform: rotateZ(360deg);
+  -ms-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
+
+[data-placement^="left"] > .c0 {
+  left: 100%;
+  -webkit-transform: rotateZ(90deg);
+  -ms-transform: rotateZ(90deg);
+  transform: rotateZ(90deg);
+}
+
+<div
+  className="c0 c1"
+  style={
+    Object {
+      "strokeColor": "transparent",
+    }
+  }
+>
+  <svg
+    viewBox="0 0 30 30"
+  >
+    <path
+      className="stroke"
+      d="M23.7,27.1L17,19.9C16.5,19.3,15.8,19,15,19s-1.6,0.3-2.1,0.9l-6.6,7.2C5.3,28.1,3.4,29,2,29h26 C26.7,29,24.6,28.1,23.7,27.1z"
+    />
+    <path
+      className="fill"
+      d="M23,27.8c1.1,1.2,3.4,2.2,5,2.2h2H0h2c1.7,0,3.9-1,5-2.2l6.6-7.2c0.7-0.8,2-0.8,2.7,0L23,27.8L23,27.8z"
+    />
+  </svg>
+</div>
+`;

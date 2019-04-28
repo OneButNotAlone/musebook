@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render with correct default styles 1`] = `
+.c2 {
+  margin: unset;
+  padding: unset;
+  border: unset;
+  background: unset;
+  font: unset;
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  background-color: unset;
+  color: inherit;
+}
+
+.c1 {
+  height: 36px;
+  min-width: 64px;
+  border-radius: 4px;
+  background-color: #187EC2;
+  text-transform: uppercase;
+  padding: 0 16px;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Bogle';
+}
+
+.c0 {
+  background-color: #187EC2;
+  color: white;
+  border: 1px solid #187EC2;
+}
+
+.c0:hover {
+  background-color: #0a4e8c;
+  border: 1px solid #0a4e8c;
+}
+
+<button
+  className="c0 c1 c2"
+/>
+`;
+
+exports[`Button should render with correct disabled styles 1`] = `
+.c2 {
+  margin: unset;
+  padding: unset;
+  border: unset;
+  background: unset;
+  font: unset;
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  background-color: unset;
+  color: inherit;
+}
+
+.c1 {
+  height: 36px;
+  min-width: 64px;
+  border-radius: 4px;
+  background-color: #187EC2;
+  text-transform: uppercase;
+  padding: 0 16px;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Bogle';
+}
+
+.c0 {
+  background-color: #ccc;
+  color: #666666;
+  border: 1px solid #ccc;
+}
+
+<button
+  className="c0 c1 c2"
+  disabled={true}
+/>
+`;
+
+exports[`Button should render with correct outlined styles 1`] = `
+.c2 {
+  margin: unset;
+  padding: unset;
+  border: unset;
+  background: unset;
+  font: unset;
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  background-color: unset;
+  color: inherit;
+}
+
+.c1 {
+  height: 36px;
+  min-width: 64px;
+  border-radius: 4px;
+  background-color: #187EC2;
+  text-transform: uppercase;
+  padding: 0 16px;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Bogle';
+}
+
+.c0 {
+  color: white;
+  border: 1px solid white;
+}
+
+.c0:hover {
+  background-color: rgba(255,255,255,0.5);
+}
+
+<button
+  className="c0 c1 c2"
+  type="outlined"
+/>
+`;
+
+exports[`Button should render with correct rounded styles 1`] = `
+.c1 {
+  margin: unset;
+  padding: unset;
+  border: unset;
+  background: unset;
+  font: unset;
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  background-color: unset;
+  color: inherit;
+}
+
+.c0 {
+  background: linear-gradient(-134deg,#0CB0F3 0%,#116CAE 49%,#0A4E8C 100%);
+  text-transform: uppercase;
+  color: white;
+  border-radius: 25.5px;
+  min-width: 100px;
+  max-width: 300px;
+  height: 36px;
+  border: none;
+}
+
+.c0:hover {
+  font-weight: bold;
+}
+
+<button
+  className="c0 c1"
+  type="rounded"
+/>
+`;
+
+exports[`Button should render with correct secondary styles 1`] = `
+.c2 {
+  margin: unset;
+  padding: unset;
+  border: unset;
+  background: unset;
+  font: unset;
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  background-color: unset;
+  color: inherit;
+}
+
+.c1 {
+  height: 36px;
+  min-width: 64px;
+  border-radius: 4px;
+  background-color: #187EC2;
+  text-transform: uppercase;
+  padding: 0 16px;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Bogle';
+}
+
+.c0 {
+  background-color: white;
+  border: 1px solid #666666;
+  color: black;
+}
+
+.c0:hover {
+  border: 1px solid #187EC2;
+  color: #187EC2;
+}
+
+<button
+  className="c0 c1 c2"
+/>
+`;

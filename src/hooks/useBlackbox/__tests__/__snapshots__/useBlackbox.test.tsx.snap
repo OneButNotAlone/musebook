@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`blackbox render 1`] = `
+<div>
+  <g
+    transform="translate(0, 0)"
+  >
+    div
+  </g>
+</div>
+`;
