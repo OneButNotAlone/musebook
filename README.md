@@ -1,6 +1,6 @@
 <br>
 
-<h1 align="center">Aether</h1>
+<h1 align="center">Musebook</h1>
 
 <p align="center">
 <img src="./aether.png" width="150" />
@@ -9,27 +9,27 @@
 <br>
 
 <p align="center">
-✨ Aether is a react component library built by Gaia ✨
+✨ Musebook is a react component library built by Gaia ✨
 </p>
 
 <br>
 
 
-<p align="center">
+<!-- <p align="center">
 <a href="https://gecgithub01.walmart.com/pages/devtools/Aether/"><strong>🏗 Components</strong></a>
-</p>
+</p> -->
 
 <br>
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://ci.walmart.com/job/sde-ui-ux/job/Aether/"><img src="https://ci.walmart.com/buildStatus/icon?job=sde-ui-ux/Aether" alt="Build Status" /></a>
-</p>
+</p> -->
 
-## Installation
+<!-- ## Installation
 
 ```sh
 npm i @walmartlabs/Aether
-```
+``` -->
 
 ## Development 💻
 
