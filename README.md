@@ -9,7 +9,7 @@
 <br>
 
 <p align="center">
-✨ Musebook is a react component library built by Gaia ✨
+✨ Musebook is a react component library✨
 </p>
 
 <br>
